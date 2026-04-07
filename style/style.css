@@ -1,0 +1,38 @@
+
+
+body
+{
+background-image:url(https://images.pexels.com/photos/6490217/pexels-photo-6490217.png?_gl=1*1dnqc5j*_ga*MTc4OTE4OTM3Ni4xNzc1MDg0MjMx*_ga_8JE65Q40S6*czE3NzUwODQyMzEkbzEkZzEkdDE3NzUwODQ0NjAkajYwJGwwJGgw);
+background-size: cover;       
+font-family: arial;
+
+}
+
+h1
+{
+    color:rgb(209, 134, 147);
+        text-align: center;
+        
+        border: 10px solid rgb(148, 99, 99);
+        border-radius: 500px;
+}
+
+h2
+{
+color:blue;
+text-align: center;
+}
+
+h3
+{
+    color: white;
+}
+
+button
+{
+    color:brown;
+        background-color:yellow;
+        border:1px solid green;
+        border-radius: 500px;
+}
+
