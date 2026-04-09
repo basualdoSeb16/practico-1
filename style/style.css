@@ -6,6 +6,36 @@ background-image:url(https://images.pexels.com/photos/6490217/pexels-photo-64902
 background-size: cover;       
 font-family: arial;
 
+display: grid;
+grid-template-rows:auto;
+grid-template-areas:"header header header"
+                "parrafo imagen boton"
+                "footer footer footer";
+}
+
+.header
+{
+    grid-area: header;
+}
+
+.parrafo
+{
+    grid-area: parrafo;
+}
+
+.imagen
+{
+    grid-area: iamgen;
+}
+
+.boton
+{
+    grid-area: boton;
+}
+
+.footer
+{
+    grid-area: footer;
 }
 
 h1
@@ -19,7 +49,7 @@ h1
 
 h2
 {
-color:blue;
+color:rgb(0, 0, 158);
 text-align: center;
 }
 
@@ -27,6 +57,8 @@ h3
 {
     color: white;
 }
+
+
 
 button
 {
@@ -36,3 +68,13 @@ button
         border-radius: 500px;
 }
 
+p
+{
+    color: white;
+    text-decoration: underline;
+}
+
+ul
+{
+color: white;
+}
